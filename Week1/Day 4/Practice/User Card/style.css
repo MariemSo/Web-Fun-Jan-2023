@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.profileBar{
+    border: solid #d1d1d1;
+    width: 600px;
+}
+.icon1 {
+    width: 0.8rem;
+}
+.icon2 {
+    width: 1rem;
+}
+
+.profilePic{
+    background-color: #17a2b8;
+    width: 600px;
+    height: 100px;
+    position: relative;
+}
+.portrait{
+    background-color: white;
+    width: 80px;
+    border-radius:50%;
+    border: #d1d1d1 solid 5px;
+    padding: 5px;
+    position: absolute;
+    top: 50px;
+    left:25px;
+}
+.profileInfo{
+    height: 150px;
+    position: relative;
+    padding: 60px 30px 0px 30px;
+    font-family: sans-serif;
+    display: grid;
+}
+.skills{
+    display: flex;
+    justify-content:flex-start;
+    margin-right:50px ;
+}
+.skills p{
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+.editProfile{
+    margin: 10px 0px;
+}
