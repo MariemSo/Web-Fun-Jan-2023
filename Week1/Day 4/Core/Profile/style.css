@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+/* --NavigationBar-- */
+.nav-title{
+  font-weight: lighter;
+}
+.nav {
+  background-color: #333333;
+  color: white;
+  padding: 10px 20px;
+  margin: autopx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.active{
+  color: white;
+}
+.nav a{  
+  color: #bdbdbd;
+  text-decoration: none;
+}
+.btn{
+  color: white;
+  background-color: #17a2b8;
+  padding: 6px;
+  border: solid #000000;
+  font-size: medium;
+  box-shadow: 3px 3px #000000;
+}
+/* Profile section */
+.profileBar{
+    border: solid #d1d1d1;
+    width: 600px;
+}
+.icon1 {
+    width: 0.8rem;
+    padding: 0px 5px;
+}
+.icon2 {
+    width: 1rem;
+}
+
+.profilePic{
+    background-color: #17a2b8;
+    width: 600px;
+    height: 100px;
+    position: relative;
+}
+.portrait{
+    background-color: white;
+    width: 80px;
+    border-radius:50%;
+    border: #d1d1d1 solid 5px;
+    padding: 5px;
+    position: absolute;
+    top: 50px;
+    left:25px;
+}
+.profileInfo{
+    height: 200px;
+    position: relative;
+    padding: 60px 30px 30px 30px;
+    font-family: sans-serif;
+    display: grid;
+}
+.skills{
+    display: flex;
+    justify-content:flex-start;
+    margin-right:50px ;
+}
+.skills p{
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+.skillDesc{
+    margin: 10px 0px;
+}
+.editProfile{
+    margin: 10px 0px;
+}
+h1{
+    font: medium;
+}
