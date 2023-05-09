@@ -31,9 +31,9 @@
     left:25px;
 }
 .profileInfo{
-    height: 150px;
+    height: 200px;
     position: relative;
-    padding: 60px 30px 0px 30px;
+    padding: 60px 30px 30px 30px;
     font-family: sans-serif;
     display: grid;
 }
@@ -46,6 +46,12 @@
     padding-right: 5px;
     padding-bottom: 5px;
 }
+.skillDesc{
+    margin: 10px 0px;
+}
 .editProfile{
     margin: 10px 0px;
+}
+h1{
+    font: medium;
 }
