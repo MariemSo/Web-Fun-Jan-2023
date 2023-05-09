@@ -4,6 +4,10 @@
   padding: 0px;
   margin: 0px;
 }
+/* --spacing-- */
+/* .container{
+
+} */
 /* --NavigationBar-- */
 .nav-title{
   font-weight: lighter;
@@ -90,6 +94,15 @@
 .editProfile{
     margin: 10px 0px;
 }
-h1{
+.nav-title{
     font: medium;
+}
+/* Education */
+.educationBar{
+  border: solid #d1d1d1;
+  width: 600px;
+}
+.education{
+  background-color: #333333;
+  color: white;
 }
