@@ -1,0 +1,20 @@
+/* Navbar */
+header{
+    background-color: #cccccc;
+    width: 1000px;
+    display:flex ;
+    align-items: center;
+    justify-content: space-around;
+}
+.searchButton{
+    border: black solid 2px;
+}
+/* buttons */
+#loginButton{
+        color: white;
+        background-color: #2871d8;
+}
+button{
+    border: black solid ;
+    box-shadow: black 2px 2px;
+}
