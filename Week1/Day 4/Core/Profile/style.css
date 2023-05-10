@@ -5,21 +5,23 @@
   margin: 0px;
 }
 /* --spacing-- */
-/* .container{
-
-} */
+.bigContent{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
 /* --NavigationBar-- */
 .nav-title{
   font-weight: lighter;
 }
-.nav {
+.navBar {
   background-color: #333333;
   color: white;
   padding: 10px 20px;
-  margin: autopx;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .nav-links {
   width: 400px;
@@ -28,10 +30,10 @@
   justify-content: space-between;
   list-style-type: none;
 }
-.active{
+#active{
   color: white;
 }
-.nav a{  
+.navBar a{  
   color: #bdbdbd;
   text-decoration: none;
 }
@@ -43,25 +45,14 @@
   font-size: medium;
   box-shadow: 3px 3px #000000;
 }
+
 /* Profile section */
-.profileBar{
+.profileSection{
     border: solid #d1d1d1;
     width: 600px;
+    margin-bottom:20px ;  
 }
-.icon1 {
-    width: 0.8rem;
-    padding: 0px 5px;
-}
-.icon2 {
-    width: 1rem;
-}
-
-.profilePic{
-    background-color: #17a2b8;
-    width: 600px;
-    height: 100px;
-    position: relative;
-}
+/* Profile section-profileBar */
 .portrait{
     background-color: white;
     width: 80px;
@@ -72,37 +63,124 @@
     top: 50px;
     left:25px;
 }
-.profileInfo{
-    height: 200px;
-    position: relative;
-    padding: 60px 30px 30px 30px;
-    font-family: sans-serif;
-    display: grid;
+.profilePic{
+  background-color: #17a2b8;
+  width: 600px;
+  height: 150px;
+  position: relative;
 }
-.skills{
+.portrait{
+  background-color: white;
+  width: 190px;
+  border-radius:50%;
+  border: #d1d1d1 solid 5px;
+  padding: 5px;
+  position: absolute;
+  top: 30px;
+  left:25px;
+}
+/* Profile section-profileInfo */
+.profileInfo{
+  height: 200px;
+  position: relative;
+  padding: 100px 30px 30px 30px;
+  display: grid;
+}
+.icon1 {
+    width: 0.8rem;
+    padding: 0px 5px;
+}
+.icon2 {
+    width: 1rem;
+}
+.skillsDesc{
     display: flex;
     justify-content:flex-start;
     margin-right:50px ;
 }
-.skills p{
-    padding-right: 5px;
-    padding-bottom: 5px;
-}
-.skillDesc{
-    margin: 10px 0px;
-}
-.editProfile{
-    margin: 10px 0px;
-}
 .nav-title{
     font: medium;
 }
-/* Education */
-.educationBar{
+/* Profile section-Education */
+h3{
+  padding:0px 10px;
+}
+.education{
   border: solid #d1d1d1;
   width: 600px;
 }
-.education{
+.edInfo{
+  margin: 20px;
+}
+.edInfo p{
+  padding: 5px 0px;
+}
+.date{
+  color: #bab8b8;
+}
+.educationBar{
   background-color: #333333;
   color: white;
+  padding: 10px;
+}
+/* user Section */
+.connections{
+  background-color: #333333;
+}
+.connect{
+  border: #d1d1d1 solid;
+}
+.connectionsReq{
+  border: #d1d1d1 solid;
+  width: 350px;
+  margin-bottom: 20px;
+}
+.connectionBar{
+  background-color: #333333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  gap:10px;
+}
+.connectionBar p{
+  width: 20px;
+  height: 20px;
+  background-color: #bab8b8;
+  border: 2px;
+  border-radius: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.requests{
+  margin: 10px;
+}
+.pImage{
+  width: 50px;
+  border-radius: 50%;
+}
+.user{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.icons{
+  display: inline-block;
+}
+.icon{
+width: 35px;
+}
+.more{
+  border-top: #d1d1d1 solid;
+  padding: 10px;
+}
+#onlineCon{
+  width: 50px;
+  border-radius: 12px;
+}
+.flex{
+display: flex;
+align-items:center ;
+gap:20px;
 }
