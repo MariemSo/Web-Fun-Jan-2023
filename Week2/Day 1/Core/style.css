@@ -4,9 +4,7 @@
 }
 /* section */
 section{
-    align-content: center;
-    width: 800px;
-    margin: 0 auto;
+    width: 600px;
 }
 /* Navbar */
 header{
@@ -15,7 +13,6 @@ header{
     align-items: center;
     justify-content: space-around;
     height:50px;
-    margin: 0px 50px;
 }
 .searchButton{
     border: black solid 2px;
@@ -35,7 +32,7 @@ button{
 main{
     display: flex;
     justify-content: center;
-    margin: 20px;
+    width: 100%;
 }
 .word{
     width: 350px;
@@ -46,9 +43,7 @@ main{
     justify-content: space-between;
     align-items: center;
 }
-.name{
-    padding: 0px 10px;
-}
+
 h1,h3{
     margin: 0px;
 }
@@ -62,7 +57,7 @@ h1,h3{
 }
 /* adding defenition */
 .defadd{
-    align-content: center;
+    align-content:flex-start;
     border: black solid 2px;
     margin-top: 10px;
     padding: 10px;
