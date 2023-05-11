@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    width: 600px;
+    margin: auto;
+    font-family: sans-serif;
+    position: relative;
+}
+/* headers */
+.head{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: 10px 10px;
+}
+.title{
+    font-weight: lighter;
+    text-align: center;
+    margin: 10px;
+}
+/* container */
+main{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    justify-content: flex-start;
+    gap: 20px;
+}
+/* profilecard */
+img{
+    width: 80px
+}
+.userInfo{
+    margin: 30px 0px;
+}
+.userName{
+    margin: 20px 0px;
+}
+.profileCard{
+    text-align: center;
+    border: 3px solid black;
+    width: 150px;
+    height: 220px;
+    padding-top: 30px;
+    font-weight: lighter;
+}
+/* feedsection */
+.feed{
+    width: 380px;
+    border: 3px solid black;
+    gap : 20px;
+    padding: 20px ;
+    margin-bottom: 20px;
+}
+.feedInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px ;
+    align-items: center;
+}
+button{
+    background-color: #ffd966;
+    border: solid solid 3px;
+    box-shadow: 2px 2px;
+    padding: 5px 10px;
+}
+.feed p{
+    margin-right: 50px;
+}
